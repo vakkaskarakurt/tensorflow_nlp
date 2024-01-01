@@ -26,7 +26,7 @@ tokenizer.fit_on_texts(sentences)
 # word index property.
 word_index = tokenizer.word_index
 
-print(word_index)
+print("Word Index: ", word_index)
 
 
 # So for example, if we updated our sentences to this
@@ -48,4 +48,4 @@ sentences = [
 tokenizer = Tokenizer(num_words=100)
 tokenizer.fit_on_texts(sentences)
 word_index = tokenizer.word_index
-print(word_index)
+print("Word Index 2: ", word_index)
